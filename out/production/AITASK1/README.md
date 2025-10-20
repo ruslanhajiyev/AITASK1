@@ -1,25 +1,30 @@
-# A* Search (Three Modes) — Java Implementation
+2. Q&A
+- Do all three modes return the same cost?
+- YES
+  astar_small.txt:
+- 
+  MODE: UCS (h=0)
+  Optimal cost: 14
+  Path: 1 -> 2 -> 3 -> 4
+  Expanded: 5
+  Pushes: 5
+  Max frontier: 2
+  Runtime (s): 0.001771
 
-This project implements the A* search algorithm in Java and demonstrates it in three modes:
-- **UCS** (Uniform Cost Search, where h = 0)
-- **A\*** using the **Euclidean** heuristic
-- **A\*** using the **Manhattan** heuristic
+MODE: A* Euclidean
+Optimal cost: 14
+Path: 1 -> 2 -> 3 -> 4
+Expanded: 4
+Pushes: 5
+Max frontier: 2
+Runtime (s): 0.000033
 
----
+MODE: A* Manhattan
+Optimal cost: 14
+Path: 1 -> 2 -> 3 -> 4
+Expanded: 4
+Pushes: 5
+Max frontier: 2
+Runtime (s): 0.000020
 
-## 📂 Files Included
-
-- **AStarProgram.java** — main program that runs the A* algorithm
-- **Graph.java** — handles reading input files and building the graph
-- **Heuristics.java** — contains heuristic functions (Zero, Euclidean, Manhattan)
-- **Types.java** — defines the data structures for Node, Edge, Graph, and PathResult
-- **astar_small.txt** — small test graph (about 5 nodes)
-- **astar_medium.txt** — medium test graph (around 30 nodes)
-
----
-
-## ⚙️ How to Build and Run
-
-### 1. Compile the code:
-```bash
-javac AStarProgram.java Graph.java Heuristics.java Types.java
+astar_medium.txt:

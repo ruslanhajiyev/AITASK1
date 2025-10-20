@@ -138,6 +138,7 @@ public class AStarProgram {
     public static void main(String[] args) {
 
         String filename = "aitaskruslan1/astar/astar_medium.txt";
+
         Types.Graph g;
         try {
             g = Graph.parseGraph(filename);
