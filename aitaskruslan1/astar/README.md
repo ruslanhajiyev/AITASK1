@@ -1,6 +1,6 @@
 ## ⚙️ How to Run
 - inorder to run go to AStarProgram.java and run it in Intellij IDEA
--if you want to run astar_small.txt inside AStarProgram.java file  String filename = "aitaskruslan1/astar/astar_medium.txt"; change astar_medium.xt to astar_small.txt
+- if you want to run astar_small.txt inside AStarProgram.java file go to String filename = "aitaskruslan1/astar/astar_medium.txt"; change astar_medium.txt to astar_small.txt
 # A* Search (Three Modes) — Java Implementation
 
 This project implements the A* search algorithm in Java and demonstrates it sin three different modes:
